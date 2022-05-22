@@ -9,7 +9,13 @@ h1, h2, h3, p, span{
 */
 
 .text-light-green{
-    color: rgb(2, 216, 38);
+    color: rgb(72, 253, 66);
+}
+
+.data-table{
+    border: 1px;
+    box-sizing: border-box;
+    border-color: black;
 }
 
 /*
