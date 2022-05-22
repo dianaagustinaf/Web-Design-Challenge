@@ -17,30 +17,39 @@
     <br>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand text-light-green" href="index.html">SpotiData</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        <a class="navbar-brand text-light-green" href="index.html">SpotiData</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="plots.html">Plots</a>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Plots
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="visualizations/1_songsPerYear.html">Most Streamed Songs per Year</a></li>
+                    <li><a class="dropdown-item" href="visualizations/2_dance.html">Danceability Distribution</a></li>
+                    <li><a class="dropdown-item" href="visualizations/3_valence.html">Valence Distribution</a></li>
+                    <li><a class="dropdown-item" href="visualizations/4_correlation.html">Correlation Valence & Danceability</a></li>
+                </ul>
                 </li>
+
                 <li class="nav-item">
                 <a class="nav-link active" href="comparison.html">Comparison</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link active" href="data.html">Data</a>
                 </li>
+
             </ul>
             </div>
         </div>
     </nav>
-    <section>
-        <br>
-    </section>
+    <br>
 
     <section id="table">
         <div class="container">
